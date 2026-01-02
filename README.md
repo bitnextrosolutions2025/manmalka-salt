@@ -1,0 +1,1 @@
+# manmalka-salt
