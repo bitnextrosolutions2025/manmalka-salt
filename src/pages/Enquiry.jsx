@@ -43,17 +43,17 @@ const Enquiry = () => {
     { 
       icon: Phone,
       title: 'Phone',
-      details: ['033 46012461', '+91 9825904444'],
+      details: ['033 46012461', '+91 9830866994'],
       color: 'blue',
-      link: 'tel:919331166994'
+      link: 'tel:919830866994'
     },
     {
 
       icon: Mail,
       title: 'Email',
-      details: ['msmsaltoffice@gmail.com', ''],
+      details: ['info@msmsalt.com', ''],
       color: 'green',
-      link: 'mailto:msmsaltoffice@gmail.com'
+      link: 'mailto:info@msmsalt.com'
     },
     {
       icon: MapPin,
