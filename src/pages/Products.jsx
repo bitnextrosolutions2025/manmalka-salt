@@ -24,11 +24,15 @@ const Products = () => {
     ],
     brands: [
       "MSM.",
+
+    ],
+
+    brandss: [
       "CITI COOK."
     ],
-   
 
-    
+
+
   };
 
   const brandImages = [
@@ -50,6 +54,15 @@ const Products = () => {
       weight: "1 Kg",
       image: cp1k
     }
+  ];
+  const brandImagess = [
+    {
+      id: 2,
+      name: "MSM Industrial Salt",
+      weight: "50 KG",
+      image: cp52g,
+    },
+
   ];
 
   const categories = [
@@ -102,8 +115,8 @@ const Products = () => {
                   key={cat.id}
                   onClick={() => setActiveCategory(cat.id)}
                   className={`flex items-center px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 ${activeCategory === cat.id
-                      ? 'bg-linear-to-r from-orange-500 to-orange-600 text-white shadow-lg'
-                      : 'bg-white text-slate-700 hover:bg-slate-100 shadow border border-slate-200'
+                    ? 'bg-linear-to-r from-orange-500 to-orange-600 text-white shadow-lg'
+                    : 'bg-white text-slate-700 hover:bg-slate-100 shadow border border-slate-200'
                     } ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'}`}
                   style={{ transitionDelay: `${300 + idx * 100}ms` }}
                 >
@@ -182,12 +195,13 @@ const Products = () => {
                     <h3 className="text-2xl md:text-3xl font-bold text-white">{brand}</h3>
                   </div>
                 </div>
+
               ))}
             </div>
 
             {/* Brand Images */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {brandImages.map((product, index) => (
+              {brandImagess.map((product, index) => (
                 <div
                   key={product.id}
                   className={`group bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
@@ -221,10 +235,58 @@ const Products = () => {
             </div>
           </div>
         )}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
+          {products.brandss.map((brand, index) => (
+            <div
+              key={index}
+              className={`bg-linear-to-br from-blue-600 to-blue-700 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+                }`}
+              style={{ transitionDelay: `${800 + index * 100}ms` }}
+            >
+              <div className="flex items-center">
+                <Award className="w-10 h-10 text-yellow-400 mr-4" />
+                <h3 className="text-2xl md:text-3xl font-bold text-white">{brand}</h3>
+              </div>
+            </div>
 
-       
+          ))}
+        </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {brandImages.map((product, index) => (
+                <div
+                  key={product.id}
+                  className={`group bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+                    }`}
+                  style={{ transitionDelay: `${1000 + index * 100}ms` }}
+                >
+                  <div className="relative h-80 bg-linear-to-br from-slate-100 to-slate-200 overflow-hidden">
+                    <div className="absolute inset-0 flex items-center justify-center p-6">
+                      <div className="relative w-full h-full">
+                        {/* Placeholder for product image */}
+                        <div className="w-full h-full bg-white rounded-xl shadow-2xl flex items-center justify-center border-4 border-slate-200 group-hover:border-orange-400 transition-all duration-300">
+                          <img src={product.image} alt="" />
+                        </div>
+                        <div className="absolute -top-3 -right-3 bg-linear-to-r from-orange-500 to-yellow-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform rotate-12">
+                          {product.weight}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-6 bg-linear-to-br from-slate-50 to-white">
+                    <h3 className="text-xl font-bold text-slate-800 mb-2 group-hover:text-orange-600 transition-colors">
+                      {product.name}
+                    </h3>
+                    <div className="flex items-center text-slate-600">
+                      <CheckCircle2 className="w-5 h-5 text-green-500 mr-2" />
+                      <span className="text-sm font-medium">Premium Quality</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
       </div>
-      <TestimonialCarousel/>
+      <TestimonialCarousel />
     </div>
   );
 };
