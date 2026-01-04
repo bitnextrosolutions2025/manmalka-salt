@@ -8,7 +8,7 @@ import img6 from "../assets/refined.jpg"
 import img7 from "../assets/rffs.webp"
 import img8 from "../assets/superfinesalt.jpg"
 import img1 from "../assets/bspic.jpg"
-import img9 from "../assets/rspic.jpg"
+import img9 from "../assets/rspic.jpeg"
 const TestimonialCarousel = () => {
 
   const testimonials = [
