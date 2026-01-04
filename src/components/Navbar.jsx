@@ -102,11 +102,11 @@ export default function Navbar() {
               <div className="px-4 py-3 mt-4 space-y-2 border-t border-gray-200">
                 <div className="flex items-center space-x-2 text-sm">
                   <Phone className="w-6 h-6 text-yellow-500" />
-                  <span className="text-gray-700 text-xl">033 46012461 / 9331166994</span>
+                  <span className="text-gray-700 text-xl">033 46012461 / 9830866994</span>
                 </div>
-                <a href="mailto:msmsaltoffice@gmail.com"><div className="flex items-center space-x-2 text-sm">
+                <a href="mailto:info@msmsalt.com"><div className="flex items-center space-x-2 text-sm">
                   <Mail className="w-6 h-6 text-yellow-500" />
-                  <span className="text-gray-700 text-xl">msmsaltoffice@gmail.com</span>
+                  <span className="text-gray-700 text-xl">info@msmsalt.com</span>
                 </div> </a>
               </div>
             </div>

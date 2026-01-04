@@ -132,20 +132,6 @@ export default function About() {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">{member.name}</h3>
                 <p className="text-orange-600 font-semibold text-lg mb-6">{member.role}</p>
-                <div className="space-y-3">
-                  <div className="flex items-center text-gray-700">
-                    <Phone className="w-5 h-5 mr-3 text-blue-600" />
-                    <a href={`tel:${member.phone}`} className="hover:text-blue-600 transition-colors">
-                      {member.phone}
-                    </a>
-                  </div>
-                  <div className="flex items-center text-gray-700">
-                    <Mail className="w-5 h-5 mr-3 text-blue-600" />
-                    <a href={`mailto:${member.email}`} className="hover:text-blue-600 transition-colors">
-                      {member.email}
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           ))}
