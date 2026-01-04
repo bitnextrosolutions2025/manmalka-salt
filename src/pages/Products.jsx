@@ -43,12 +43,6 @@ const Products = () => {
       image: cp5g
     },
     {
-      id: 2,
-      name: "MSM Industrial Salt",
-      weight: "50 KG",
-      image: cp52g,
-    },
-    {
       id: 3,
       name: "CITI COOK - Family Pack",
       weight: "1 Kg",
