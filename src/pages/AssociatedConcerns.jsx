@@ -62,7 +62,6 @@ const AssociatedConcerns = () => {
     { label: 'Production Facilities', value: '1', suffix: '' },
     { label: 'States Covered', value: '2', suffix: '' },
     { label: 'Annual Capacity', value: '50K', suffix: ' MT' },
-    { label: 'Quality Assurnce', value: 'ISO', suffix: '' }
   ];
 
   return (
@@ -104,7 +103,7 @@ const AssociatedConcerns = () => {
       {/* Stats Bar with Animation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-20 relative z-10">
         <div className="bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <div
                 key={index}
