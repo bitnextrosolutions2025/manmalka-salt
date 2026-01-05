@@ -21,16 +21,16 @@ const Contact = () => {
       {
         id: 1,
         type: "work",
-        title: "FACTORY WORK (1)",
+        title: "FACTORY WORK",
         company: "MANMALKA SALT INDUSTRY",
-        address: "TRAVEL NO 200, CITY/VILLAGE - PADANA, TALUKA - GANDHIDHAM. 370201 DISTT KACHH, GUJARAT",
-        phone: "9595733555",
+        address: "TRAVEL NO 200, CITY/VILLAGE - PADANA, Plot no. 3, TALUKA - GANDHIDHAM, 370201 DISTT KACHH, GUJARAT",
+        phone: "9331166994",
         email: "info@msmsalt.com"
       },
       {
         id: 2,
         type: "office",
-        title: "FACTORY OFFICE (1)",
+        title: "FACTORY OFFICE",
         company: "MANMALKA SALT INDUSTRY",
         address: "OFFICE NO 102, CHETNA CHEMBER, SECTOR 9, PLOT NO 38, 1ST FLOOR, GANDHIDHAM KACHH 370201.",
         phone: "9595733555",
