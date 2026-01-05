@@ -13,9 +13,9 @@ const Infrastructure = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const stats = [
-    { icon: Factory, label: 'Manufacturing Units', value: '1+', color: 'blue' },
+    { icon: Factory, label: 'Manufacturing Units', value: '1', color: 'blue' },
     { icon: TrendingUp, label: 'Years of Growth', value: '13+', color: 'green' },
-   
+
     { icon: Users, label: 'Team Members', value: '200+', color: 'orange' }
   ];
 
@@ -37,20 +37,20 @@ const Infrastructure = () => {
     },
     {
       title: 'Distribution Network',
-      description: 'We distribute Everything from factory factory.',
+      description: 'We operate a robust and reliable distribution network built on timely delivery, strict quality assurance, and a proactive understanding of customer requirements. Manufacturing operations are managed by the Manmalka Manufacturing Unit, while nationwide distribution is efficiently handled by MS Manmalka Salt Private Limited.',
       icon: MapPin
     }
   ];
 
   const images = [
-    { id: 1, alt: 'Salt storage facility',image:a, },
-    { id: 2, alt: 'Warehouse inventory',image:b },
-    { id: 3, alt: 'Processing unit',image:c },
-    { id: 4, alt: 'Storage warehouse',image:d },
-    { id: 5, alt: 'Salt packaging',image:e },
-    { id: 6, alt: 'Distribution center',image:f },
-    { id: 7, alt: 'Quality control',image:g },
-    { id: 8, alt: 'Inventory management',image:i }
+    { id: 1, alt: 'Salt storage facility', image: a, },
+    { id: 2, alt: 'Warehouse inventory', image: b },
+    { id: 3, alt: 'Processing unit', image: c },
+    { id: 4, alt: 'Storage warehouse', image: d },
+    { id: 5, alt: 'Salt packaging', image: e },
+    { id: 6, alt: 'Distribution center', image: f },
+    { id: 7, alt: 'Quality control', image: g },
+    { id: 8, alt: 'Inventory management', image: i }
   ];
 
   return (
@@ -59,7 +59,7 @@ const Infrastructure = () => {
       <div className="relative h-96 bg-linear-to-r from-blue-600 to-blue-800 overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMC41IiBvcGFjaXR5PSIwLjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-30"></div>
-        
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center">
           <div className="mt-8">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 tracking-tight">
@@ -79,19 +79,17 @@ const Infrastructure = () => {
               <div
                 key={index}
                 className="w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)] bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
->
-              
-    <div className={`inline-flex p-3 rounded-lg mb-4 ${
-  stat.color === 'blue' ? 'bg-blue-50' : 
-  stat.color === 'green' ? 'bg-green-50' : 
-  stat.color === 'purple' ? 'bg-purple-50' : 'bg-gray-50'
-}`}>
-  <Icon className={`w-6 h-6 ${
-    stat.color === 'blue' ? 'text-blue-600' : 
-    stat.color === 'green' ? 'text-green-600' : 
-    stat.color === 'purple' ? 'text-purple-600' : 'text-gray-600'
-  }`} />
-</div>
+              >
+
+                <div className={`inline-flex p-3 rounded-lg mb-4 ${stat.color === 'blue' ? 'bg-blue-50' :
+                    stat.color === 'green' ? 'bg-green-50' :
+                      stat.color === 'purple' ? 'bg-purple-50' : 'bg-gray-50'
+                  }`}>
+                  <Icon className={`w-6 h-6 ${stat.color === 'blue' ? 'text-blue-600' :
+                      stat.color === 'green' ? 'text-green-600' :
+                        stat.color === 'purple' ? 'text-purple-600' : 'text-gray-600'
+                    }`} />
+                </div>
                 <div className="text-3xl font-bold text-gray-900 mb-1">{stat.value}</div>
                 <div className="text-sm text-gray-600">{stat.label}</div>
               </div>

@@ -43,7 +43,7 @@ export default function ManmalkaSalt() {
             />
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 font-semibold mb-2 px-4">
-              "One of the best Salt  Manufacturing & Distribution Firm India
+              "One of the best salt  manufacturing & distribution firm India"
             </p>
             <div className="w-20 sm:w-24 h-1 bg-linear-to-r from-orange-500 to-yellow-500 mx-auto rounded-full"></div>
           </div>
@@ -122,7 +122,7 @@ export default function ManmalkaSalt() {
 
               <div className="bg-linear-to-br from-blue-50 to-purple-50 rounded-2xl p-6 sm:p-8 border-l-4 border-blue-500 hover:shadow-lg transition-shadow duration-300">
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                  "Lead by <span className="font-semibold">Mr. Ram Gopal Agarwal</span>, our group has overcome every challenge to become a leader in salt manufacturing and distribution. We are committed to constant growth, working hard every day to reach more customers across India and around the world."</p>
+                  "Led by <span className="font-semibold">Mr. Ram Gopal Agarwal</span>, our group has overcome every challenge to become a leader in salt manufacturing and distribution. We are committed to constant growth, working hard every day to reach more customers across India and around the world."</p>
               </div>
             </div>
           </div>
