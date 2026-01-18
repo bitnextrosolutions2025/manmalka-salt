@@ -78,7 +78,7 @@ const Infrastructure = () => {
             return (
               <div
                 key={index}
-                className="w-[calc(50%-1rem)] lg:w-[calc(25%-1.5rem)] bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                className=" lg:w-[calc(25%-1.5rem)] bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
 
                 <div className={`inline-flex p-3 rounded-lg mb-4 ${stat.color === 'blue' ? 'bg-blue-50' :

@@ -89,31 +89,31 @@ export default function ProfessionalFooter() {
                         </h3>
                         <ul className="space-y-3">
                             <li>
-                                <Link to="/" className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
+                                <Link to="/" onClick={scrollToTop} className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
                                     <span className="w-1.5 h-1.5 bg-blue-400 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/about" className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
+                                <Link to="/about" onClick={scrollToTop} className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
                                     <span className="w-1.5 h-1.5 bg-blue-400 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                                     About Us
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/infrastructure" className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
+                                <Link to="/infrastructure" onClick={scrollToTop} className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
                                     <span className="w-1.5 h-1.5 bg-blue-400 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                                     Infrastructure
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/products" className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
+                                <Link to="/products" onClick={scrollToTop} className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
                                     <span className="w-1.5 h-1.5 bg-blue-400 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                                     Products
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/contact" className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
+                                <Link to="/contact" onClick={scrollToTop} className="text-sm text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2 group">
                                     <span className="w-1.5 h-1.5 bg-blue-400 rounded-full group-hover:w-2 group-hover:h-2 transition-all"></span>
                                     Contact Us
                                 </Link>
