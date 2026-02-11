@@ -20,7 +20,7 @@ const Products = () => {
       "Vacuum Salt.",
       "Super Fine Salt.",
       "Refine free Flow Iodised salt.",
-      "Low Headness salt."
+      "Low Hardness salt."
     ],
     brands: [
       "MSM.",
