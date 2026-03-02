@@ -33,7 +33,7 @@ function App() {
       <ProfessionalFooter/>
     </BrowserRouter> */}
 
-     <div className='text-center text-5xl font-extrabold'>temporary stop the domain</div>
+     <div className='text-center text-5xl font-extrabold'>Temporary not available</div>
     </>
   )
 }
