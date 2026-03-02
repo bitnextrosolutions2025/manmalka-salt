@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle, Building2, Globe, User, MessageSquare } from 'lucide-react';
 import saltpic2 from "../assets/saltpic2.jpg"
+import WhatsAppContact from '../components/Wpmessage';
 const Enquiry = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [formData, setFormData] = useState({
@@ -116,7 +117,6 @@ const Enquiry = () => {
           </div>
         </div>
       </div>
-
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid lg:grid-cols-3 gap-12">

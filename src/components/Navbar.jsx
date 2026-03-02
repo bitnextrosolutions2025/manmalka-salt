@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import logo from "../assets/logo.png"
 import { Link, useLocation } from 'react-router';
+import WhatsAppContact from './Wpmessage';
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
@@ -12,7 +13,8 @@ export default function Navbar() {
     { name: 'Products', href: '/products' },
     { name: 'Associated Concerns', href: '/associatedconcerns' },
     { name: 'Enquiry', href: '/enquiry' },
-    { name: 'Contact Us', href: '/contact' }
+    { name: 'Contact Us', href: '/contact' },
+    { name: 'Become Seller', href: '/contact' }
   ];
   const [showButton, setShowButton] = useState(false);
   useEffect(() => {
@@ -31,6 +33,8 @@ export default function Navbar() {
 
 
   return (
+    <>
+    
     <nav className="bg-white shadow-md ">
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 `}>
         <div className="flex justify-between items-center py-4">
@@ -114,5 +118,7 @@ export default function Navbar() {
         )}
       </div>
     </nav>
+    <WhatsAppContact/>
+    </>
   );
 }
