@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    {/* <BrowserRouter>
+     <BrowserRouter>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -31,9 +31,9 @@ function App() {
         <Route path='/contact' element={<ContactUs/>}/>
       </Routes>
       <ProfessionalFooter/>
-    </BrowserRouter> */}
+    </BrowserRouter> 
 
-     <div className='text-center text-5xl font-extrabold'>Temporary not available</div>
+      {/*<div className='text-center text-5xl font-extrabold'>Temporary not available</div>*/}
     </>
   )
 }
