@@ -14,6 +14,7 @@ import Products from './pages/Products';
 import AssociatedConcerns from './pages/AssociatedConcerns';
 import Enquiry from './pages/Enquiry';
 import ProfessionalFooter from './components/Footer';
+import Blog from './pages/Blog';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path='/associatedconcerns' element={<AssociatedConcerns/>}/>
         <Route path='/enquiry' element={<Enquiry/>}/>
         <Route path='/contact' element={<ContactUs/>}/>
+        <Route path='/blog' element={<Blog/>}/>
       </Routes>
       <ProfessionalFooter/>
     </BrowserRouter> 

@@ -6,7 +6,7 @@ export default function WhatsAppContact() {
   const [message, setMessage] = useState('');
   const [isHovered, setIsHovered] = useState(false);
 
-  const phoneNumber = '919330855877';
+  const phoneNumber = '9830866994';
   const defaultMessage = 'Hello! I would like to inquire about your services.';
 
   const handleSendMessage = () => {
@@ -125,7 +125,7 @@ export default function WhatsAppContact() {
           </button>
           <div className="flex items-center justify-center gap-1 mt-3 text-xs text-gray-500">
             <Phone className="h-3 w-3" />
-            <span>+91 9330855877
+            <span>+91 9830866994
 </span>
           </div>
         </div>
