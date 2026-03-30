@@ -46,7 +46,8 @@ export default function Blog() {
         {/* Main Heading */}
         <div className="space-y-4 animate-fade-up delay-200">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-900 tracking-tight">
-            Our blog page is coming soon.
+           Ours Blog's <br />
+Are coming soon
           </h1>
         </div>
 
