@@ -16,12 +16,13 @@ import Enquiry from './pages/Enquiry';
 import ProfessionalFooter from './components/Footer';
 import Blog from './pages/Blog';
 import DetailBlogPage from './pages/DetailBlogPage';
-
+import { ToastContainer,Flip } from 'react-toastify'
 function App() {
 
   return (
     <>
      <BrowserRouter>
+     <ToastContainer transition={Flip}/>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
