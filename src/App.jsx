@@ -15,6 +15,7 @@ import AssociatedConcerns from './pages/AssociatedConcerns';
 import Enquiry from './pages/Enquiry';
 import ProfessionalFooter from './components/Footer';
 import Blog from './pages/Blog';
+import DetailBlogPage from './pages/DetailBlogPage';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path='/enquiry' element={<Enquiry/>}/>
         <Route path='/contact' element={<ContactUs/>}/>
         <Route path='/blog' element={<Blog/>}/>
+        <Route path='/blog/:id' element={<DetailBlogPage/>}/>
       </Routes>
       <ProfessionalFooter/>
     </BrowserRouter> 
