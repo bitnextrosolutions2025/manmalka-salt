@@ -14,7 +14,7 @@ const Infrastructure = () => {
 
   const stats = [
     { icon: Factory, label: 'Manufacturing Units', value: '1', color: 'blue' },
-    { icon: TrendingUp, label: 'Years of Growth', value: '13+', color: 'green' },
+    { icon: TrendingUp, label: 'Years of Growth', value: '15+', color: 'green' },
 
     { icon: Users, label: 'Team Members', value: '200+', color: 'orange' }
   ];

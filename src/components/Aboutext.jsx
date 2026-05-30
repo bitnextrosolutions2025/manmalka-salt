@@ -59,7 +59,7 @@ export default function ManmalkaSalt() {
 
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                 <div className="bg-linear-to-br from-orange-500 to-orange-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-                  <p className="text-2xl sm:text-3xl font-bold">14+</p>
+                  <p className="text-2xl sm:text-3xl font-bold">15+</p>
                   <p className="text-xs sm:text-sm opacity-90">Years Experience</p>
                 </div>
                 <div className="bg-linear-to-br from-blue-500 to-blue-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
