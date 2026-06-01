@@ -14,7 +14,9 @@ export default function Navbar() {
     { name: 'Associated Concerns', href: '/associatedconcerns' },
     { name: 'Enquiry', href: '/enquiry' },
     { name: 'Contact Us', href: '/contact' },
-    { name: 'Blog', href: '/blog' }
+    { name: 'Blog', href: '/blog' },
+    { name: 'F&Q', href: '/fq' },
+
   ];
   const [showButton, setShowButton] = useState(false);
   useEffect(() => {

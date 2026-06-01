@@ -17,6 +17,7 @@ import ProfessionalFooter from './components/Footer';
 import Blog from './pages/Blog';
 import DetailBlogPage from './pages/DetailBlogPage';
 import { ToastContainer,Flip } from 'react-toastify'
+import FandQ from './components/FandQ';
 function App() {
 
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path='/enquiry' element={<Enquiry/>}/>
         <Route path='/contact' element={<ContactUs/>}/>
         <Route path='/blog' element={<Blog/>}/>
+        <Route path='/fq' element={<FandQ/>}/>
         <Route path='/blog/:id' element={<DetailBlogPage/>}/>
       </Routes>
       <ProfessionalFooter/>
