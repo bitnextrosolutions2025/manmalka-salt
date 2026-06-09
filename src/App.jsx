@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-     <BrowserRouter>
+     {/*<BrowserRouter>
      <ToastContainer transition={Flip}/>
       <Navbar/>
       <Routes>
@@ -38,9 +38,9 @@ function App() {
         <Route path='/blog/:id' element={<DetailBlogPage/>}/>
       </Routes>
       <ProfessionalFooter/>
-    </BrowserRouter> 
+    </BrowserRouter> */}
 
-      {/*<div className='text-center text-5xl font-extrabold'>Temporary not available</div>*/}
+    <div className='text-center text-5xl font-extrabold'>Temporary not available</div>
     </>
   )
 }
